@@ -1,0 +1,60 @@
+.marginRect {
+    margin-top: 18px;
+    margin-bottom: 36px;
+}
+
+.paymentRect {
+    position: absolute;
+    width: 389px;
+    height: 1px;
+    background: #DFE3E6;
+}
+.checkbox {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+    .checkbox > div {
+        display: inline-block;
+    }
+
+.checkboxChoose {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #DFE3E6;
+}
+
+    .checkboxChoose:hover {
+        border: 1px solid black;
+        cursor: url("../images/Pointer.svg"), pointer;
+    }
+
+.checkboxSum {
+    margin-left: 12px;
+    margin-right: 4px;
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.checkboxYear {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.paymentText {
+    font-family: Lab Grotesque;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
