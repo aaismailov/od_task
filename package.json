@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/aaismailov/outside_task.git",
-  "name": "outside-task",
+  "homepage": "https://github.com/aaismailov/od_task.git",
+  "name": "od-task",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
