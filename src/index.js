@@ -8,7 +8,9 @@ function tick() {
 
     const element = (
         <React.StrictMode>
-            <App store={store} />
+            <BrowserRouter basename={window.location.pathname || ''}>
+                <App store={store} />
+            </BrowserRouter>
         </React.StrictMode>
     );
 
